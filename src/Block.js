@@ -24,7 +24,7 @@ class Block{
 		this.scent = 0;
 	}
 	
-	//displays the block given its status
+	//displays the block given its status on screen
 	activate() {
 		//obstacle block
 		if(this.obstacle){
