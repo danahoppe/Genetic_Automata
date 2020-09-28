@@ -17,7 +17,7 @@ class Ant {
 		//ant health - ant dies if it reaches 0
 		this.health = 100;
 		//rate at which ant health decreases when it performs an action
-		this.attrition = -3;
+		this.attrition = -2.5;
 		
 		//determines how many offspring ant will produce
 		this.fertility = random(0,3);

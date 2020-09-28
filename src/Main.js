@@ -14,11 +14,11 @@ let kill = 0;
 let fr = 15;
 
 //scale of pixels per block
-let s = 5;
+let s = 8;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-  background(255);
+  	background(166,102,44);
   
   //coordinate of first ant hill
 	origin = createVector(400,400);

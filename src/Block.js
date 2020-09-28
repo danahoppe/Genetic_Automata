@@ -45,7 +45,7 @@ class Block{
 		}
 		else{
 			noStroke();
-			fill(255-(this.scent*10),255,255-(this.scent*10));
+			fill(222-(this.scent*10),182 + this.scent*10,135-(this.scent*10));
 			ellipse(this.x,this.y,s);
 		}
 		
