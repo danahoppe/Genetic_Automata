@@ -1,5 +1,5 @@
 # Genetic_Automata
-Genetic-Simulator
+Genetic-Simulator - Ants
 
 ------------------------------------------
 
