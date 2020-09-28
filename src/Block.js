@@ -26,11 +26,13 @@ class Block{
 	
 	//displays the block given its status
 	activate() {
+		//obstacle block
 		if(this.obstacle){
 			noStroke();
 			fill(0);
 			ellipse(this.x,this.y,s);
-		}		
+		}	
+		//ant block	
 		else if (this.ants > 0){
 			noStroke();
 			if(this.ant != null){
@@ -38,11 +40,13 @@ class Block{
 				ellipse(this.x,this.y,s);
 			}
 		}
+		//food block
 		else if (this.food > 0){
 			noStroke();
 			fill(0,this.food*30,0);
 			ellipse(this.x,this.y,s);
 		}
+		//empty block
 		else{
 			noStroke();
 			fill(222-(this.scent*10),182 + this.scent*10,135-(this.scent*10));
