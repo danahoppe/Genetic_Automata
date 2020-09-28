@@ -9,5 +9,5 @@ Ants utilize optimal search algorithms and efficient path retracing methods to s
 
 -------------------------------------------
 
-Open index.html in the browser to run
+Open index.html in the browser to run the program
 
